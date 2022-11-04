@@ -1,0 +1,13 @@
+[package]
+name = "ncrypt"
+version = "0.1.0"
+edition = "2021"
+authors = ["collinoc"]
+description = "Non-cryptographically secure cryptography library"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.dev]
+overflow-checks = false # Required
+
+[dependencies]
